@@ -46,6 +46,7 @@ a {
     color: black;
     border: 1px solid #469165;
     background: white;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.747);
 }
 
 .common-btn-2 a {
@@ -78,7 +79,15 @@ a {
     font-size: 48px;
     text-transform: capitalize;
     color: #001931;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+}
+
+.sub-title {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #469165;
+    margin-bottom: 16px;
 }
 
 .common-text,
@@ -111,6 +120,10 @@ a {
 
 .bg-gray {
     background: #FBFBFB;
+}
+
+.box-shadow {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15)
 }
 
 /* header css */
@@ -289,6 +302,10 @@ a {
 }
 
 /* nots css */
+.notes-area {
+    max-height: 380px;
+}
+
 .nots-card {
     display: flex;
     flex-direction: column;
@@ -296,21 +313,28 @@ a {
     justify-content: center;
     gap: 16px;
     border-radius: 8px;
-    padding: 24px;
+    padding: 0 16px;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
     background: white;
     cursor: pointer;
     border: 1px solid transparent;
     transition: .3s linear;
+    text-align: center;
+    height: 300px;
 }
 
 .nots-card:hover {
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.20);
-    transform: scale(1.3);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.30);
+    transform: scale(1.03);
     border: 1.5px solid #30B868;
 }
-.nots-card:hover .nots-icon  {
+
+.nots-card:hover .nots-icon {
     background: #30B868;
+}
+
+.nots-card:hover .nots-card-title {
+    color: #30B868;
 }
 
 .nots-icon {
@@ -329,8 +353,47 @@ a {
     font-size: 24px;
     text-transform: capitalize;
     color: #001931;
+    transition: .3s linear;
+    line-height: 1.4;
 }
 
-.nots-card-area{
+.nots-card-area {
     display: flex;
+    align-self: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+/* brain area css */
+.brain-area {
+    margin-top: 150px;
+}
+
+.brain-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.brain-img img {
+    border-radius: 12px;
+}
+
+.brain-right p {
+    padding-right: 230px;
+}
+
+.brain-list li {
+    font-weight: 500;
+    font-size: 16px;
+    color: #001931;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.brain-list li:last-child {
+    margin-bottom: 0;
 }
