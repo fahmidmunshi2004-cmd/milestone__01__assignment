@@ -397,3 +397,27 @@ a {
 .brain-list li:last-child {
     margin-bottom: 0;
 }
+
+/* clarity */
+.clarity-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #001931;
+}
+
+.clarity-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+    border-radius: 12px;
+    padding: 93px 40px;
+    background: #f7f6f2;
+}
+
+.clarity-content .common-btn {
+    margin-top: 8px;
+}
