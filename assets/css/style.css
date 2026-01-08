@@ -330,3 +330,7 @@ a {
     text-transform: capitalize;
     color: #001931;
 }
+
+.nots-card-area{
+    display: flex;
+}
