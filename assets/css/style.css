@@ -303,7 +303,8 @@ a {
 
 /* nots css */
 .notes-area {
-    max-height: 380px;
+    max-height: 410px;
+    overflow: hidden;
 }
 
 .nots-card {
@@ -455,7 +456,7 @@ a {
 }
 
 .social-icons a i {
-    font-size: 18px;
+    font-size: 16px;
     color: black;
 }
 
@@ -470,7 +471,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 80px;
-    border-bottom: 1px solid #e5e7eb7c;
+    border-bottom: 1px solid #e5e7eb14;
 }
 
 .footer-copyright-area{
@@ -486,4 +487,7 @@ a {
     font-weight: 400;
     font-size: 16px;
     color: #fafafa;
+}
+.footer-copyright-area a {
+    color: #469165;
 }
