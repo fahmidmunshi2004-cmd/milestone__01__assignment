@@ -4,11 +4,16 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     color: black;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -328,6 +333,7 @@ a {
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.30);
     transform: scale(1.03);
     border: 1.5px solid #30B868;
+    background: #30b8690a;
 }
 
 .nots-card:hover .nots-icon {
